@@ -30,13 +30,19 @@
 .video {
     position: relative;
     padding-bottom: 56.25%;
+    overflow: hidden;
     z-index: 1;
 }
 
 .video__media {
-    width: 100%;
-    height: auto;
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 110%; /* Увеличиваем ширину, чтобы края не были белыми */
+    height: 110%; /* Увеличиваем высоту для того же эффекта */
+    -webkit-filter: blur(7px);
     filter: blur(7px);
+    transform: translateY(-20px) translate3d(0, 0, 0);
 }
 
 .adok__text h1 {
