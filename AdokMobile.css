@@ -5,6 +5,20 @@
         margin: 0 auto;
     }
 
+    .video {
+        padding-top: 177.78%; /* Соотношение сторон 16:9, но вертикально */
+        width: 100%;
+    }
+
+    .video__media {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: auto;
+        height: 100%;
+        
+    }
+
     .adok__text h1 {
         top: 50px;
         width: 100%;
@@ -58,7 +72,7 @@
 
     .adok__popup__close {
         top: 30px; 
-        left: 90%;
+        left: 87%;
     }
     
 }
@@ -67,6 +81,20 @@
     .container {
         max-width: 80%;
         margin: 0 auto;
+    }
+
+    .video {
+        padding-top: 177.78%; /* Соотношение сторон 16:9, но вертикально */
+        width: 100%;
+    }
+
+    .video__media {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: auto;
+        height: 100%;
+        
     }
 
     .adok__text h1 {
@@ -88,7 +116,7 @@
 
     .adok__popup__close {
         top: 30px; 
-        left: 90%;
+        left: 87%;
     }
 }
 
@@ -96,6 +124,20 @@
     .container {
         max-width: 80%;
         margin: 0 auto;
+    }
+
+    .video {
+        padding-top: 177.78%; /* Соотношение сторон 16:9, но вертикально */
+        width: 100%;
+    }
+
+    .video__media {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: auto;
+        height: 100%;
+        
     }
 
     .popup {
@@ -110,7 +152,8 @@
 
     .adok__popup__close {
         top: 30px; 
-        left: 90%;
+        left: 87%;
     }
+    
 }
 
